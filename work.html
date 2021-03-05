@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>work</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class ="headerleft"
+
+        <p> 🌻     Lauren Bichelmeir </p>
+      </div>
+      <div class="navmenu">
+        <a href="index.html"> 💡 home</a>
+        <a class="active" href="work.html"> ⚡  work</a>
+        <a href="about.html"> ✨   about</a>
+      </div>
+    </nav>
+
+    <h3 class="page-title">⚡ <span class="hello">my work.</span> </h3>
+
+    <!-- Buttons Section -->
+
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> all</button>
+      <button class="btn" onclick="filterSelection('webdev')"> HTML/CSS/JavaScript </button>
+      <!-- <button class="btn" onclick="filterSelection('javascript')"> JavaScript </button> -->
+      <button class="btn" onclick="filterSelection('personal')"> personal</button>
+    </div>
+
+        <!-- Portfolio Gallery Grid -->
+
+    <div class="row">
+      <div class="column webdev">
+        <div class="content">
+          <img src="images/rps.png" alt="rock paper scissors game" style="width: 100%">
+          <h4> Rock Paper Scissors </h4>
+          <p> built with HTML/CSS/JavaScript for The Odin Project </p>
+        </div>
+      </div>
+      <div class="column webdev">
+        <div class="content">
+          <img src="images/portfolio.png" alt="portfolio image" style="width: 100%">
+        <h4> personal portfolio </h4>
+        <p> this website was built for fun with HTML/CSS/JavaScript </p>
+        </div>
+      </div>
+
+<!-- END GRID -->
+  </div>
+
+  <script src="app.js" charset="utf-8"></script>
+
+
+
+
+
+
+  </body>
+</html>
