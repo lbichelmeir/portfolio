@@ -169,7 +169,8 @@ h3 {
 /* -------------------- Works -> Projects -------------------- */
 /* Add padding BETWEEN each column (if you want) */
 .row {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Karla', sans-serif;
 }
 
 .row ~ p {
