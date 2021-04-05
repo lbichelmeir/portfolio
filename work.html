@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <title>work</title>
+    <title>⚡ work</title>
     <!-- *********************** Stylesheets *********************** -->
-    <link rel="stylesheet" href="tutorial.css">
+    
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
@@ -13,52 +14,407 @@
 
   </head>
   <body>
-    <nav class="navbar">
-      <div class ="headerleft"
+    <header>
+      <nav class="navbar">
+          <div class ="headerleft">
 
-        <p> 🌻     Lauren Bichelmeir </p>
-      </div>
-      <div class="navmenu">
-        <a href="tutorial.html"> 💡 home</a>
-        <a class="active" href="work.html"> ⚡  work</a>
-        <a href="about.html"> ✨   about</a>
-      </div>
-    </nav>
+              <p> 🌻     Lauren Bichelmeir </p>
+          </div>
 
-    <h3 class="page-title">⚡ <span class="wavy">my work.</span> </h3>
+          <div class="navlinks">
+              <a href="index.html"> 💡 home</a>
+              <a class="active" href="work.html"> ⚡  work</a>
+              <a href="about.html"> ✨   about</a>
+          </div>
+      </nav>
+  </header>
 
-    <!-- Buttons Section -->
+    <h2 class="page-title">⚡ <span class="wavy">my work.</span> </h2>
 
-    <div id="myBtnContainer">
-      <button class="btn active" onclick="filterSelection('all')"> all</button>
-      <button class="btn" onclick="filterSelection('webdev')"> HTML/CSS/JavaScript </button>
-      <!-- <button class="btn" onclick="filterSelection('javascript')"> JavaScript </button> -->
-      <button class="btn" onclick="filterSelection('personal')"> personal</button>
-    </div>
 
-        <!-- Portfolio Gallery Grid -->
 
-    <div class="row">
-      <div class="column webdev">
-        <div class="content">
-          <img src="images/rps.png" alt="rock paper scissors game" style="width: 100%">
-          <h4> Rock Paper Scissors </h4>
-          <p> built with HTML/CSS/JavaScript for The Odin Project </p>
-        </div>
-      </div>
-      <div class="column webdev">
-        <div class="content">
-          <img src="images/portfolio.png" alt="portfolio image" style="width: 100%">
-        <h4> personal portfolio </h4>
-        <p> this website was built for fun with HTML/CSS/JavaScript </p>
-        </div>
-      </div>
+<div class="projects"> 
+  <div class="project_types">
+    <a href="#experience"> 1. experience </a>
+    <a href="#personalproject"> 2. personal projects </a>
+    <a href="#schoolproject"> 3. school projects </a>
 
-<!-- END GRID -->
+
+  </div>
+  <h3 class="project_type" id="experience">experience</h3>
+
+  <!-- Mayfest Productions – Dillo Day App Developer  -->
+  <div class="project">
+    <div class="project_overview">
+      <h4 class="project_title"> 
+        Mayfest Productions – Dillo Day App Developer 	
+      </h4>
+      <p class="project_date">
+      Dec 2021 - present
+      </p>
   </div>
 
-  <script src="app.js" charset="utf-8"></script>
+  <div class="project_stack">
+      <span class="project_stack-tech"> React Native </span>
+      <span class="project_stack-tech"> TypeScript </span>
+    </div>
 
+    <p class="project_info">
+      creating a React Native application for Dillo Day, Northwestern’s annual music festival; collaborating with another React Native developer and UI/UX designers. 
+      <!-- <a class="project_info-github" href="https://github.com/lbichelmeir"> View Code ⚡</a> -->
+    </p>
+    <img class="project_img" src="images/projects/experience/dillo.jpg">
+    </img>
+  
+  </div>
+  
+  <!-- DISC Recycling Project -->
+<div class="project">
+    <div class="project_overview">
+      <h4 class="project_title" > 
+        DISC – React Native Recycling App Developer	
+      </h4>
+      <span class="project_date">
+        Jan 2021 - present
+      </span>
+  </div>
+
+  <div class="project_stack">
+      <span class="project_stack-tech"> React Native </span>
+      <span class="project_stack-tech"> Figma </span>
+      <span class="project_stack-tech"> UI/UX </span>
+    </div>
+
+    <p class="project_info">
+      spearheading a React Native recycling application group project from ideation through DISC, 
+      a Northwestern club dedicated to using technology for social good; 
+      ideating with Figma mockups 
+ 
+      <!-- <a class="project_info-github" href="https://github.com/lbichelmeir"> View Code ⚡</a> -->
+    </p>
+    <img class="project_img" src="images/projects/experience/disc.jpg">
+    </img>
+  
+  </div>
+  
+
+  <!-- -------------------- PERSONAL PROJECTS -------------------- -->
+  <h3 class="project_type" id="personalproject">personal projects</h3>
+
+  <!-- POKEDEX -->
+  <div class="project">
+    <div class="project_overview">
+      <h4 class="project_title" > 
+          Pokedex 
+      </h4>
+      <span class="project_date">
+        April 2021
+      </span>
+  </div>
+
+  <div class="project_stack">
+      <span class="project_stack-tech"> React </span>
+      <span class="project_stack-tech"> GraphQL </span>
+      <span class="project_stack-tech"> Apollo </span>
+      <span class="project_stack-tech"> CSS </span>
+      <span class="project_stack-tech"> Pokemon API </span>
+    </div>
+
+    <p class="project_info">
+      Following the <i>Build an app with React & GraphQL</i> Scrimba course, 
+      I made a GraphQL query to a pokemon API to create a Pokemon Pokedex 
+      that displays information about the pokemon in React.
+
+
+ 
+      <a class="project_info-github" href="https://github.com/lbichelmeir/pokedex-react"> View Code ⚡</a>
+    </p>
+    <img class="project_img" src="images/projects/personalprojects/PokedexSquare.gif">
+    </img>
+  
+  </div>
+
+  <!-- MOVIE SEARCH APP -->
+  <div class="project">
+    <div class="project_overview">
+      <h4 class="project_title" > 
+  Movie Search App
+      </h4>
+      <span class="project_date">
+        April 2021
+      </span>
+  </div>
+
+  <div class="project_stack">
+      <span class="project_stack-tech"> React </span>
+      <span class="project_stack-tech"> CSS </span>
+      <span class="project_stack-tech"> Movie DB API </span>
+    </div>
+
+    <p class="project_info">
+      Following a <i>Scrimba</i> course, I built a movie search app in React using the <i> Movie DB API</i>. 
+      I fetched data from an API, used React Hooks, created functional components, and styled with CSS.
+      <a class="project_info-github" href="https://github.com/lbichelmeir/movie-search-app-react"> View Code ⚡</a>
+    </p>
+    <img class="project_img" src="images/projects/personalprojects/MovieSearch.gif">
+    </img>
+  
+  </div>
+
+  <!-- TO DO APP -->
+  <div class="project">
+    <div class="project_overview">
+      <h4 class="project_title" > 
+  To Do App with local storage
+      </h4>
+      <span class="project_date">
+        March 2021
+      </span>
+  </div>
+
+  <div class="project_stack">
+      <span class="project_stack-tech"> React </span>
+      <span class="project_stack-tech"> CSS </span>
+      <span class="project_stack-tech"> CSS </span>
+    </div>
+
+    <p class="project_info">
+      After the Scrimba <i>Learn React</i> course, I wanted to continue learning React 
+      by creating a real-life practical application. 
+      I decided to start with the basic to do app to review what I learned from the course and further my understanding of useState() with some guidance from an <i>Enlight</i> tutorial.
+
+
+      <a class="project_info-github" href="https://github.com/lbichelmeir/todo-app-react"> View Code ⚡</a>
+    </p>
+    <img class="project_img" src="images/projects/personalprojects/TodoSquare.gif">
+    </img>
+  
+  </div>
+
+<!-- MEME GENERATOR -->
+  <div class="project">
+    <div class="project_overview">
+      <h4 class="project_title" > 
+  Meme Generator
+      </h4>
+      <span class="project_date">
+        March 2021
+      </span>
+  </div>
+
+  <div class="project_stack">
+      <span class="project_stack-tech"> React </span>
+      <span class="project_stack-tech"> CSS </span>
+      <span class="project_stack-tech"> API </span>
+    </div>
+
+    <p class="project_info">
+      For the Scrimba Learn React capstone project, we created a meme generator using class-based components. 
+      I re-created the same generator with functional components to further my understanding of useState and useEffect.
+
+      <a class="project_info-github" href="https://github.com/lbichelmeir/meme-generator-react"> View Code ⚡</a>
+    </p>
+    <img class="project_img" src="images/projects/personalprojects/MemeGenerator.gif">
+    </img>
+  
+  </div>
+
+<!-- RANDOM QUOTE GENERATOR -->
+<div class="project">
+  <div class="project_overview">
+    <h4 class="project_title" > 
+Random Quote Generator
+    </h4>
+    <span class="project_date">
+      March 2021
+    </span>
+</div>
+
+<div class="project_stack">
+    <span class="project_stack-tech"> HTML </span>
+    <span class="project_stack-tech"> CSS </span>
+    <span class="project_stack-tech"> JavaScript </span>
+  </div>
+
+  <p class="project_info">
+    To further my vanilla javascript knowledge, I created a random quote generator and fetched data from a <i></i>quotes API</i> and the <i>UnSplash API</i>.
+
+
+    <a class="project_info-github" href="https://github.com/lbichelmeir/quote-generator-javascript"> View Code ⚡</a>
+  </p>
+  <img class="project_img" src="images/projects/personalprojects/WisdomSquare.gif">
+  </img>
+
+</div>
+
+
+<!-- PERSONAL PORTFOLIO -->
+<div class="project">
+  <div class="project_overview">
+    <h4 class="project_title" > 
+Personal Portfolio
+    </h4>
+    <span class="project_date">
+      March 2021
+    </span>
+</div>
+
+<div class="project_stack">
+    <span class="project_stack-tech"> HTML </span>
+    <span class="project_stack-tech"> CSS </span>
+  </div>
+
+  <p class="project_info">
+    I built this portfolio from <i>scratch</i> to further my HTML & CSS knowledge.
+
+
+    <a class="project_info-github" href="https://github.com/lbichelmeir/lbichelmeir.github.io"> View Code ⚡</a>
+  </p>
+  <img class="project_img" src="images/projects/personalprojects/Portfolio.gif">
+  </img>
+
+</div>
+
+<!-- ROCK PAPER SCISSORS -->
+<div class="project">
+  <div class="project_overview">
+    <h4 class="project_title" > 
+Rock Paper Scissors
+    </h4>
+    <span class="project_date">
+      March 2021
+    </span>
+</div>
+
+<div class="project_stack">
+    <span class="project_stack-tech"> HTML </span>
+    <span class="project_stack-tech"> CSS </span>
+    <span class="project_stack-tech"> JavaScript </span>
+  </div>
+
+  <p class="project_info">
+    Created a Rock Paper Scissors game to further my JavaScript knowledge
+
+
+    <a class="project_info-github" href="https://github.com/lbichelmeir/rockpaperscissors"> View Code ⚡</a>
+  </p>
+  <img class="project_img" src="images/projects/personalprojects/rps.gif">
+  </img>
+
+</div>
+
+<!-- PYTHON WEB SCRAPING -->
+<div class="project">
+  <div class="project_overview">
+    <h4 class="project_title" > 
+Python Web Scraper
+    </h4>
+    <span class="project_date">
+      March 2021
+    </span>
+</div>
+
+<div class="project_stack">
+    <span class="project_stack-tech"> Python </span>
+    <span class="project_stack-tech"> Beautiful Soup </span>
+  </div>
+
+  <p class="project_info">
+    Followed a tutorial to create a <i>Python web scraper </i> that scrapes 
+    the <a href="https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords=python&txtLocation=">TIMESJOBS</a> 
+    website to find relevant job postings. 
+    The user can filter the job postings to exclude skills they are not familiar with, and text files for jobs that match the criteria are created.
+    <br>
+    I also created a web scraper to scrape the <a href="http://www.sprichwort-plattform.org/sp/Sprichwort">Sprichwort</a> website to generate a JSON file of all the German proverbs. 
+
+
+    <!-- <a class="project_info-github" href="https://github.com/lbichelmeir/rockpaperscissors"> View Code ⚡</a> -->
+  </p>
+  <img class="project_img" src="images/projects/schoolprojects/python.png">
+  </img>
+
+</div>
+
+<!-- TIC TAC TOE -->
+<div class="project">
+  <div class="project_overview">
+    <h4 class="project_title" > 
+Tic Tac Toe
+    </h4>
+    <span class="project_date">
+      March 2021
+    </span>
+</div>
+
+<div class="project_stack">
+    <span class="project_stack-tech"> React </span>
+    <span class="project_stack-tech"> CSS </span>
+  </div>
+
+  <p class="project_info">
+    Followed the official ReactJS docs and a Scrimba course to create a React Tic Tac Toe app and to learn about React Hooks.
+
+
+    <!-- <a class="project_info-github" href="https://github.com/lbichelmeir/rockpaperscissors"> View Code ⚡</a> -->
+  </p>
+  <img class="project_img" src="images/projects/personalprojects/TicTacToe.gif">
+  </img>
+
+</div>
+
+
+
+
+
+  <!-- -------------------- SCHOOL PROJECTS -------------------- -->
+
+  <h3 class="project_type" id="schoolproject">school projects</h3>
+
+  <!-- CS 150 -->
+  <div class="project">
+    <div class="project_overview">
+      <h4 class="project_title" > 
+  CS 150: Fundamentals of Computer Programming 1.5
+      </h4>
+      <span class="project_date">
+        Fall 2020
+      </span>
+  </div>
+
+  <div class="project_stack">
+      <span class="project_stack-tech"> Python </span>
+      
+    </div>
+
+    <p class="project_info">
+      In this Python class, some of my projects included: 
+      creating a movie chatbot (natural language query system), 
+      a Tic tac toe game, 
+      a Sudoku puzzle solver, and
+      classifying sentiments using a Naïve Bayes classifier
+      <!-- <a class="project_info-github" href="https://github.com/lbichelmeir"> View Code ⚡</a> -->
+    </p>
+    <img class="project_img" src="images/projects/schoolprojects/python.png">
+    </img>
+  
+  </div>
+
+
+
+
+
+<!--   <div class="project">
+  </div>
+  <div class="project">
+  </div> -->
+</div>
+
+
+    
+
+
+  </body>
+</html>
 
 
 
