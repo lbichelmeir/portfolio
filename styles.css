@@ -292,8 +292,11 @@ img {
   }
   
   @media (max-width: 586px) {
-      .aboutme {
-        margin: 20px 20px;
+    .aboutme {
+      margin: 20px 25px;
+    }
+      .aboutme_p {
+        margin: 20px 0px;
       }
 
   }
