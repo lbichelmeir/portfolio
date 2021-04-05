@@ -20,8 +20,17 @@
 html {
   font-family: 'Lora', serif;
   font-size: 15px;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+body {
+  text-size-adjust: none;
 
 }
+
+/* p {
+  font-size: 1rem;
+} */
 
 img {
   display: block;
@@ -399,7 +408,7 @@ img {
     
   }
   
-  @media (min-width: 586px) {
+  @media (min-width: 587px) {
   .project {
     display: grid;
     grid-template-columns: 1fr 5fr;
