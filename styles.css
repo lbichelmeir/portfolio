@@ -145,6 +145,7 @@ img {
   .footer a {
     color: #f6bd60;
     text-decoration: none;
+    
   }
   .footer-link:hover,
   .social-list_link:hover {
@@ -161,6 +162,7 @@ img {
     justify-content: center;
     margin: 1em 0;
     padding: 0;
+    font-size: 18px;
   }
   
   .social-list_item {
@@ -263,10 +265,13 @@ img {
 
 .aboutme {
     margin: 20px 50px;
+    /* margin: 0 auto; */
+    
 }
 .aboutme_p {
     line-height: 1.7;
     margin: 10px 50px;
+    /* margin: 0 auto; */
     font-family: 'Karla', sans-serif;
     font-size: 16px;
   
@@ -355,6 +360,8 @@ img {
   .project_img {
     width: 130px;
     height: auto; 
+    justify-self: center;
+    align-self: center;
     
   }
   
