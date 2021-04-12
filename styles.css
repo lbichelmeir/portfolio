@@ -277,10 +277,25 @@ img {
   
   }
 
- .aboutme_p-interests {
+ .aboutme_p-emphasis {
   /* color: #FDCA40; */
+  background-color: #FDCA40;
   font-weight: bold;
+  padding: 0px 3.5px;
+  border-radius: 2px;
+  margin: 0px 2px;
  } 
+
+ .aboutme_p-skills {
+  /* color: #FDCA40; */
+  background-color: #FDCA40;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 3px;
+  margin-right: 5px;
+  border-radius: 3px;
+
+ }
   
   .aboutme_h {
     font-size: 20px;
